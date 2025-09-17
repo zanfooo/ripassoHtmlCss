@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio HTML e CSS</title>
+    <link rel="stylesheet" href="ripasso1.css">
+    <style>
+        html, body, input, select, button, label, textarea {
+            font-family: Arial, sans-serif !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>Esercitazione di HTML e CSS</h1>
+    <p>Benvenuto nella mia pagina</p>
+
+    <form action="#" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Scrivi il tuo nome"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Scrivi la tua email"><br><br>
+
+    <label for="dataNascita">Data di nascita:</label><br>
+    <input type="date" id="dataNascita" name="dataNascita"><br><br>
+
+    <label>Genere:</label><br>
+        <div class="radio-group" style="display: flex; gap: 16px; align-items: center; margin: 8px 0 16px 0;">
+            <input type="radio" id="maschio" name="genere" value="Maschio">
+            <label for="maschio" style="margin-right: 8px;">Maschio</label>
+            <input type="radio" id="femmina" name="genere" value="Femmina">
+            <label for="femmina" style="margin-right: 8px;">Femmina</label>
+            <input type="radio" id="altro" name="genere" value="Altro">
+            <label for="altro">Altro</label>
+        </div>
+
+        <label for="nazione">Nazione di provenienza:</label><br>
+        <select id="nazione" name="nazione">
+            <option value="">Seleziona una nazione</option>
+            <option value="Italia">Italia</option>
+            <option value="Francia">Francia</option>
+            <option value="Germania">Germania</option>
+            <option value="Spagna">Spagna</option>
+            <option value="Regno Unito">Regno Unito</option>
+            <option value="Stati Uniti">Stati Uniti</option>
+            <option value="Altro">Altro</option>
+        </select><br><br>
+
+        <input type="checkbox" id="termini" name="termini">
+        <label for="termini">Accetto i termini e le condizioni</label><br><br>
+
+        <button type="submit">Invia</button>
+    </form>
+
+    <div class="box">
+        
+ box di prova 
+
+    </div>
+</body>
+<script src="ripasso1.js"></script>
+</html>
