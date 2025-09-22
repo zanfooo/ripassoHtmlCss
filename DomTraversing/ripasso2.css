@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 32px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+form {
+    background: #fffbe7;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 24px 32px;
+    max-width: 350px;
+    margin: 32px auto;
+    border: 1px solid #fab1a0;
+}
+
+label {
+    color: #e17055;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #fab1a0;
+    border-radius: 6px;
+    background: #fff;
+    color: #636e72;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    accent-color: #e17055;
+    margin-right: 6px;
+}
+
+button[type="submit"], button {
+    background: linear-gradient(90deg, #e17055 0%, #f6d365 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover, button:hover {
+    background: linear-gradient(90deg, #f6d365 0%, #e17055 100%);
+}
+
+.box {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    width: 250px;
+    background-color: #e17055;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+/* Titolo */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Form */
+form {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box; /* parte del box-model */
+}
+
+button {
+    margin-top: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Box di prova */
+.box {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    width: 250px;
+    background-color: #e17055;
+    text-align: center;
+}
